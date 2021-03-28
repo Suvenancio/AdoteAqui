@@ -32,11 +32,14 @@ h2{
 
 }
 
-
-.menu{
+header{
     background-color: coral;
     width: 100%;
+}
+.menu{
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
      
@@ -44,8 +47,10 @@ h2{
 
 .menu1{
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 20px;
+    
 }
 
 .botao1{
@@ -91,12 +96,11 @@ h1
     
 }
 
-
 .bichos{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
+    align-items: center;
     text-align: center;
     padding: 20px;
 }
@@ -105,80 +109,58 @@ h1
     display: flex;
    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 20px;
     align-items: center;
     width: 100%;
 }
 
 .fotos p{
     text-align: center;
-    padding: 20px;
+   
 }
 
 .gato1{
     width: 50vh;
-    padding: 20px;
-    }
-    
- .gato2{
-width: 50vh;
- 
-        
-        
-    }
-    
+}
+
+.gato2{
+    width: 50vh;
+}
+
 .gato3{
     width: 50vh;
     height: 40vh;
-   
-    
+}
+
+.cao1{
+    width: 50vh;
+ margin-top: 20vh;
+}
+
+.cao2{
+    width: 50vh;
+    margin-top: 20vh;
+}
+
+.cao3{
+    width: 50vh;
+    margin-top: 20vh;
+}
+
+.cao4{
+    width: 50vh;
+    margin-top: 20vh;
+}
+
+.cao5{
+    width: 50vh;
+    margin-top: 20vh;
+}
+.cao6{
+    width: 50vh;
+    margin-top: 20vh;
 }
     
-.cao1{
-        height: 50vh;
-        margin-top: 15vh;
-       
-    }
-    
-.cao2{
-        height: 60vh;
-        margin-top: 15vh;
-       
-        
-    }
-    
-.cao3{
-        width: 50vh;
-        height: 60vh;
-        margin-top: 15vh;
-       
-        
-    }
-    
-    .cao4{
-        width: 50vh;
-        height: 50vh; 
-        margin-top: 15vh;
-       
-    }
-    
-    .cao5{
-        width: 50vh;
-        height: 50vh;
-        margin-top: 15vh;
-       
-    
-    }
-    
-    .cao6{
-        width: 50vh;
-        height: 50vh;
-        margin-top: 15vh;
-    
-    }
-    
- 
-
     footer{
         background-color: coral;
         height: 2vh;
@@ -186,30 +168,28 @@ width: 50vh;
         font-size: 0.7em;
     }
 
-    @media screen and (max-width: 600px){
-        h2{
-            display: none;
-        }
-    
-        .menu1{
-            display: flex;
-            flex-direction: column;
-            margin-left: 10vh;
-            align-items: center;
-            text-align: center;
-        }
-        
-        .botao1, .botao2, .botao3{
-            margin-top: 20px;
-            width: 150%;
-    
-        }
-    
-        .gato2,.gato3,.cao1,.cao2,.cao3,.cao4,.cao5,.cao6{
-            margin-top: 100px;
-            width: 70%;
-        }
+  @media screen and (max-width: 700px)
+  {
+      h2{
+          display: none;
+      }
+    .menu1{ 
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
 
     }
-    
+
+    .botao1, .botao2, .botao3{
+        width: 100%;
+        margin-block-end: 10px;
+        
+    }
+
+    .fotos img{
+        width: 95%;
+    }
+
+
+  }
     
