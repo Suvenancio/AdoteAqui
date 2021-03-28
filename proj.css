@@ -170,7 +170,7 @@ h1
         font-size: 0.7em;
     }
 
-  @media screen and (max-width: 700px)
+  @media screen and (max-width: 426px)
   {
       h2{
           display: none;
@@ -194,6 +194,9 @@ h1
         width: 100%;
     }
 
+    .cao1, .cao2,.cao3,.cao4,.cao5,.cao6,.gato2,.gato3{
+        margin-top: 10vh;
+    }
 
   }
     
